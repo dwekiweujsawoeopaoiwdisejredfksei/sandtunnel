@@ -1,0 +1,35 @@
+<html id="yomama">
+
+<div id="div2"></div>
+<div id="div3"></div>
+<html src=""width="100%" id="myImg" >
+  
+  <style>
+    html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-image: url("https://cdn.discordapp.com/attachments/466671731650854913/908201801172537344/image0.PNG");
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#div2:hover + #yomama {
+background-image: url("https://cdn.discordapp.com/attachments/466671731650854913/908201802976075776/IMG_6140.jpg");
+transition:0.35s ease-in;
+}
+
+#div3:hover + #div2 {
+background-image: url("https://cdn.discordapp.com/attachments/466671731650854913/908201803433250926/IMG_6142.jpg");
+transition:0.35s ease-in;
+}
+  </style>
